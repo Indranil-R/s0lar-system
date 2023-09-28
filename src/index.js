@@ -33,13 +33,7 @@ function Moon() {
     );
 };
 
-function Footer() {
-    return (
-        <p className='footer'>Inspired by <a
-            href="https://gist.github.com/TheEngineersDeskPk/023113a78ae6b1f34bed1475a203ba7a">@TheEngineersDeskPk</a> on
-            Github </p>
-    );
-};
+
 
 function App() {
     return (
@@ -49,7 +43,6 @@ function App() {
                 <Earth>
                     <Moon/>
                 </Earth>
-                <Footer/>
             </SolarSystem>
         </>
     );
